@@ -71,5 +71,10 @@ class Router {
 
         die();
     }
+
+    public function intended()
+    {
+        return $_SERVER['HTTP_REFERER'];
+    }
 }
 
