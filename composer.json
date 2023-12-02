@@ -1,0 +1,16 @@
+{
+    "name": "mohamed/php",
+    "authors": [
+        {
+            "name": "Mohamed Ahmed",
+            "email": "mhmdahmd2422@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    }
+}
